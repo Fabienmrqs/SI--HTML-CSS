@@ -6,13 +6,6 @@
   background: rgba(0,0,0,0.35);
 }
 
-@media (max-width: 480px) {
-
-  .header_box{
-    width: 50%;
-  }
-}
-
 .header_box {
   margin: auto;
   width: 1335px;
@@ -23,6 +16,13 @@
   font-weight: 500;
   /*background: rgba(255, 0, 0, 0.2);*/
 }
+
+@media (max-width:480px){
+  .header_box {
+    width: 500px;
+  }
+}
+
 .header_logo {
   font-weight: bold;
   font-size: 60px;
